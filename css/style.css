@@ -1,0 +1,42 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 30px;
+    align-items: flex-start;
+}
+.navbar-brand{
+    width: 150px;
+}
+
+input{
+    padding: 14px 20px;
+    width: 600px;
+    font-size: 15px;
+}
+.search_btn{
+    padding: 14px 20px;
+    font-size: 18px;
+    background-color: #05A081;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.display_images{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 90%;
+    grid-gap: 75px;
+    margin: 50px auto;
+}
+.display_images .image{
+    width: 350px;
+    height: 480px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.caption{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: system-ui;
+}
